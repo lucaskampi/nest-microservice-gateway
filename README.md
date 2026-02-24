@@ -65,3 +65,7 @@ The gateway routes requests to the following microservices:
 - **Store Service** - Store management
 - **Supplier Service** - Supplier management
 - **Carrier Service** - Carrier management
+
+---
+
+> This service was extracted from the monorepo `nest-microservice-store` as part of a microservices migration. Initial commits were done via multi-agent setup to avoid merge conflicts.
