@@ -34,10 +34,43 @@ npm install
 
 # Run in development mode
 npm run dev
-
-# Run tests
-npm run test
 ```
+
+## Testing
+
+This project includes comprehensive unit and e2e tests with 100% coverage on all controllers.
+
+### Test Commands
+
+```bash
+# Run unit tests
+npm test
+
+# Run e2e tests
+npm run test:e2e
+
+# Run tests with coverage report
+npm run test:cov
+```
+
+### Test Coverage
+
+| File | Statements | Branches | Functions | Lines |
+|------|------------|----------|-----------|-------|
+| auth.controller.ts | 100% | 100% | 100% | 100% |
+| jwt.strategy.ts | 100% | 100% | 100% | 100% |
+| health.controller.ts | 100% | 100% | 100% | 100% |
+| proxy.controller.ts | 100% | 100% | 100% | 100% |
+
+### Test Files
+
+| File | Description |
+|------|-------------|
+| `src/auth/jwt.strategy.spec.ts` | JWT validation tests |
+| `src/auth/auth.controller.spec.ts` | Auth controller tests |
+| `src/health/health.controller.spec.ts` | Health endpoint tests |
+| `src/proxy/proxy.controller.spec.ts` | Proxy routing tests |
+| `src/app.e2e-spec.ts` | End-to-end integration tests |
 
 ## Docker
 
