@@ -7,7 +7,7 @@
     "build": "tsc -p tsconfig.json",
     "start": "node dist/main.js",
     "test": "jest",
-    "test:e2e": "jest --config ./jest.config.js --testPathPattern=.*e2e-spec\\.ts$",
+    "test:e2e": "jest --config ./jest-e2e.config.js",
     "test:cov": "jest --coverage"
   },
   "dependencies": {
