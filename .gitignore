@@ -1,5 +1,7 @@
 node_modules/
 dist/
+coverage/
+coverage-e2e/
 *.log
 .env
 .env.local
